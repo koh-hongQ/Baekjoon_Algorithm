@@ -1,0 +1,11 @@
+a=input('')
+a=a.replace('c=','A')
+a=a.replace('c-','B')
+a=a.replace('dz=','C')
+a=a.replace('d-','D')
+a=a.replace('lj','E')
+a=a.replace('nj','F')
+a=a.replace('s=','G')
+a=a.replace('z=','H')
+
+print(len(a))
